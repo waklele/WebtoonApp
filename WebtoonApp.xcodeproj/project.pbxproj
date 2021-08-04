@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0898E726B1A4ED00CC9C18 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0898E626B1A4ED00CC9C18 /* ProfilViewController.swift */; };
+		2DADB14326AF058700FE8BBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADB14226AF058700FE8BBF /* AppDelegate.swift */; };
+		2DADB14526AF058700FE8BBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADB14426AF058700FE8BBF /* SceneDelegate.swift */; };
+		2DADB14726AF058700FE8BBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADB14626AF058700FE8BBF /* ViewController.swift */; };
+		2DADB14A26AF058700FE8BBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DADB14826AF058700FE8BBF /* Main.storyboard */; };
+		2DADB14C26AF058800FE8BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DADB14B26AF058800FE8BBF /* Assets.xcassets */; };
+		2DADB14F26AF058800FE8BBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DADB14D26AF058800FE8BBF /* LaunchScreen.storyboard */; };
+		2DADB15A26AF07C500FE8BBF /* WebtoonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADB15826AF07C500FE8BBF /* WebtoonTableViewCell.swift */; };
+		2DADB15B26AF07C500FE8BBF /* WebtoonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DADB15926AF07C500FE8BBF /* WebtoonTableViewCell.xib */; };
+		2DADB16226AF09A500FE8BBF /* Webtoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADB16126AF09A500FE8BBF /* Webtoon.swift */; };
+		2DADB16526AF155500FE8BBF /* WebtoonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADB16326AF155500FE8BBF /* WebtoonDetailViewController.swift */; };
+		2DADB16626AF155500FE8BBF /* WebtoonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DADB16426AF155500FE8BBF /* WebtoonDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D0898E626B1A4ED00CC9C18 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		2DADB13F26AF058700FE8BBF /* WebtoonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebtoonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DADB14226AF058700FE8BBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DADB14426AF058700FE8BBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2DADB14626AF058700FE8BBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DADB14926AF058700FE8BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DADB14B26AF058800FE8BBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DADB14E26AF058800FE8BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DADB15026AF058800FE8BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DADB15826AF07C500FE8BBF /* WebtoonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonTableViewCell.swift; sourceTree = "<group>"; };
+		2DADB15926AF07C500FE8BBF /* WebtoonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebtoonTableViewCell.xib; sourceTree = "<group>"; };
+		2DADB16126AF09A500FE8BBF /* Webtoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webtoon.swift; sourceTree = "<group>"; };
+		2DADB16326AF155500FE8BBF /* WebtoonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonDetailViewController.swift; sourceTree = "<group>"; };
+		2DADB16426AF155500FE8BBF /* WebtoonDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebtoonDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DADB13C26AF058700FE8BBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DADB13626AF058700FE8BBF = {
+			isa = PBXGroup;
+			children = (
+				2DADB14126AF058700FE8BBF /* WebtoonApp */,
+				2DADB14026AF058700FE8BBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DADB14026AF058700FE8BBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DADB13F26AF058700FE8BBF /* WebtoonApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DADB14126AF058700FE8BBF /* WebtoonApp */ = {
+			isa = PBXGroup;
+			children = (
+				2DADB16026AF089400FE8BBF /* Views */,
+				2DADB15F26AF088B00FE8BBF /* Models */,
+				2DADB15E26AF086900FE8BBF /* Controllers */,
+				2DADB15C26AF083D00FE8BBF /* Base */,
+				2DADB14B26AF058800FE8BBF /* Assets.xcassets */,
+				2DADB15026AF058800FE8BBF /* Info.plist */,
+			);
+			path = WebtoonApp;
+			sourceTree = "<group>";
+		};
+		2DADB15C26AF083D00FE8BBF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2DADB14226AF058700FE8BBF /* AppDelegate.swift */,
+				2DADB14426AF058700FE8BBF /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2DADB15E26AF086900FE8BBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DADB16326AF155500FE8BBF /* WebtoonDetailViewController.swift */,
+				2DADB15826AF07C500FE8BBF /* WebtoonTableViewCell.swift */,
+				2DADB14626AF058700FE8BBF /* ViewController.swift */,
+				2D0898E626B1A4ED00CC9C18 /* ProfilViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2DADB15F26AF088B00FE8BBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2DADB16126AF09A500FE8BBF /* Webtoon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2DADB16026AF089400FE8BBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DADB16426AF155500FE8BBF /* WebtoonDetailViewController.xib */,
+				2DADB14826AF058700FE8BBF /* Main.storyboard */,
+				2DADB15926AF07C500FE8BBF /* WebtoonTableViewCell.xib */,
+				2DADB14D26AF058800FE8BBF /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DADB13E26AF058700FE8BBF /* WebtoonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DADB15326AF058800FE8BBF /* Build configuration list for PBXNativeTarget "WebtoonApp" */;
+			buildPhases = (
+				2DADB13B26AF058700FE8BBF /* Sources */,
+				2DADB13C26AF058700FE8BBF /* Frameworks */,
+				2DADB13D26AF058700FE8BBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebtoonApp;
+			productName = WebtoonApp;
+			productReference = 2DADB13F26AF058700FE8BBF /* WebtoonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DADB13726AF058700FE8BBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2DADB13E26AF058700FE8BBF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 2DADB13A26AF058700FE8BBF /* Build configuration list for PBXProject "WebtoonApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DADB13626AF058700FE8BBF;
+			productRefGroup = 2DADB14026AF058700FE8BBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DADB13E26AF058700FE8BBF /* WebtoonApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DADB13D26AF058700FE8BBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DADB14F26AF058800FE8BBF /* LaunchScreen.storyboard in Resources */,
+				2DADB16626AF155500FE8BBF /* WebtoonDetailViewController.xib in Resources */,
+				2DADB14C26AF058800FE8BBF /* Assets.xcassets in Resources */,
+				2DADB15B26AF07C500FE8BBF /* WebtoonTableViewCell.xib in Resources */,
+				2DADB14A26AF058700FE8BBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DADB13B26AF058700FE8BBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DADB14726AF058700FE8BBF /* ViewController.swift in Sources */,
+				2DADB14326AF058700FE8BBF /* AppDelegate.swift in Sources */,
+				2D0898E726B1A4ED00CC9C18 /* ProfilViewController.swift in Sources */,
+				2DADB16526AF155500FE8BBF /* WebtoonDetailViewController.swift in Sources */,
+				2DADB16226AF09A500FE8BBF /* Webtoon.swift in Sources */,
+				2DADB15A26AF07C500FE8BBF /* WebtoonTableViewCell.swift in Sources */,
+				2DADB14526AF058700FE8BBF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DADB14826AF058700FE8BBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DADB14926AF058700FE8BBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DADB14D26AF058800FE8BBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DADB14E26AF058800FE8BBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DADB15126AF058800FE8BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DADB15226AF058800FE8BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DADB15426AF058800FE8BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKCK2R7Z4A;
+				INFOPLIST_FILE = WebtoonApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RR.WebtoonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DADB15526AF058800FE8BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKCK2R7Z4A;
+				INFOPLIST_FILE = WebtoonApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RR.WebtoonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DADB13A26AF058700FE8BBF /* Build configuration list for PBXProject "WebtoonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DADB15126AF058800FE8BBF /* Debug */,
+				2DADB15226AF058800FE8BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DADB15326AF058800FE8BBF /* Build configuration list for PBXNativeTarget "WebtoonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DADB15426AF058800FE8BBF /* Debug */,
+				2DADB15526AF058800FE8BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DADB13726AF058700FE8BBF /* Project object */;
+}

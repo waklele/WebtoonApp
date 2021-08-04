@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4h-WF-Z24">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WebtoonApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="112" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="r43-eo-ssG">
+                                <rect key="frame" x="0.0" y="140" width="414" height="722"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="r43-eo-ssG" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="79Z-2y-YGC"/>
+                            <constraint firstItem="r43-eo-ssG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GBr-0j-Ym7"/>
+                            <constraint firstItem="r43-eo-ssG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WPl-K0-ZFb"/>
+                            <constraint firstItem="r43-eo-ssG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="s4j-nD-SPN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vfa-N1-yGq">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="XV6-gg-XoI">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TZG-L5-SSf">
+                                <rect key="frame" x="320" y="11" width="74" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="person.circle" catalog="system"/>
+                                <connections>
+                                    <segue destination="E3Z-lN-zYM" kind="show" id="3A0-hb-08l"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="webtoonTableView" destination="r43-eo-ssG" id="jEH-9y-aw8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="93.75"/>
+        </scene>
+        <!--Profil-->
+        <scene sceneID="JV9-PC-mIr">
+            <objects>
+                <viewController id="E3Z-lN-zYM" customClass="ProfilViewController" customModule="WebtoonApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Bk-O9-Nbc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rangga" translatesAutoresizingMaskIntoConstraints="NO" id="HdL-VP-oof">
+                                <rect key="frame" x="143" y="213" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="128" id="VI7-cv-DRY"/>
+                                    <constraint firstAttribute="height" constant="128" id="YoT-cL-jR3"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rangga Rentya" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2h-4u-vlC">
+                                <rect key="frame" x="145.5" y="361" width="123" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="rangga.rentya@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvy-Xh-pWp">
+                                <rect key="frame" x="107" y="390" width="200" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vWJ-cx-N3g"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rvy-Xh-pWp" firstAttribute="top" secondItem="t2h-4u-vlC" secondAttribute="bottom" constant="8" symbolic="YES" id="6J6-vu-N30"/>
+                            <constraint firstItem="t2h-4u-vlC" firstAttribute="top" secondItem="HdL-VP-oof" secondAttribute="bottom" constant="20" id="9pk-rh-DnS"/>
+                            <constraint firstItem="rvy-Xh-pWp" firstAttribute="centerX" secondItem="HdL-VP-oof" secondAttribute="centerX" id="Aen-TV-bVA"/>
+                            <constraint firstItem="vWJ-cx-N3g" firstAttribute="trailing" secondItem="HdL-VP-oof" secondAttribute="trailing" constant="143" id="EMw-lb-GIo"/>
+                            <constraint firstItem="HdL-VP-oof" firstAttribute="top" secondItem="vWJ-cx-N3g" secondAttribute="top" constant="73" id="UQU-H6-AHd"/>
+                            <constraint firstItem="rvy-Xh-pWp" firstAttribute="centerX" secondItem="t2h-4u-vlC" secondAttribute="centerX" id="ZYw-V7-aIY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Profil" id="qlc-dp-cka"/>
+                    <connections>
+                        <outlet property="photoProfil" destination="HdL-VP-oof" id="gE0-y3-JB8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AU4-94-JdS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1657" y="94"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TgE-K1-6Lh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M4h-WF-Z24" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="tqB-ac-G3U">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="N7b-bp-Oig"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SGt-xm-aYo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
+        <image name="rangga" width="670" height="976"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
